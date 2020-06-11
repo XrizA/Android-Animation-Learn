@@ -11,7 +11,7 @@
     val animation = AlphaAnimation(1.0f, 0.2f)
     animation.duration = 1000
     this.image.startAnimation(animation)
-# TranslateAnimation
+# [TranslateAnimation](https://developer.android.com/reference/android/view/animation/TranslateAnimation)
 ### Code
     val animation = TranslateAnimation(
         0f,
@@ -20,7 +20,7 @@
         -100f)
     animation.duration = 1000
     this.image.startAnimation(animation)
-# ScaleAnimation
+# [ScaleAnimation](https://developer.android.com/reference/android/view/animation/ScaleAnimation)
 ### Code
     val animation = ScaleAnimation(
         1.0f,
@@ -32,7 +32,7 @@
     animation.duration = 1000        
     imageView.startAnimation
     (AnimationUtils.loadAnimation(this, R.anim.translate))
-# RotateAnimation
+# [RotateAnimation](https://developer.android.com/reference/android/view/animation/RotateAnimation)
 ### Code
     val animation = RotateAnimation(
         fromDegree,
